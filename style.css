@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+input,
+textarea,
+select,
+button {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.main-content{
+  flex:1;
+}
+.section-header{
+  padding: 20px;
+  text-align: center;
+  background-color: #252525;
+  height: 270px;
+}
+.section-title{
+  font-family: Georgia, 'Times New Roman', Times, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color:#f4efef;
+  margin-bottom: 8px;
+}
+.section-subtitle{
+  font-size: 1.125rem;
+  color:#939191;
+  margin-bottom: 24px;
+}
+.section-description{
+  max-width: 672px;
+  margin: 0 auto;
+  color:#535353;
+  padding: 32px;
+}
+
+.section-description p{
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-description .about{
+  margin-top: 150px;
+  font-size: 24px;
+  color: #2e3771;
+}
+
+.profile-circle{
+  width: 96px;
+  height: 96px;
+  background-color: #4f7cac;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+.profile-circle i {
+  font-size: 2.5rem; 
+  color: #ffffff; 
+}
+.introducion{
+  margin-bottom: 100px;
+}
+
+.section-body {
+  padding: 32px; 
+  background-image: url(./images/gahag-0030284739-1.jpeg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.band-image-container {
+  text-align: center; 
+  margin-top: 32px; 
+  margin-bottom: 32px;
+}
+
+.band-image {
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
